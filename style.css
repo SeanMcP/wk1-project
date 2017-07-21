@@ -70,7 +70,7 @@ h1 {
 */
 #productGridUl {
   padding: 0;
-  margin: 0;
+  margin: 0 10px 10px;
   list-style: none;
   display: flex;
   flex-flow: row wrap;
@@ -80,8 +80,8 @@ h1 {
   flex: 1;
   flex-basis: 20%;
   overflow: hidden;
-  height: 400px;
-  margin: 10px;
+  height: 350px;
+  margin: 0.5%;
 }
 .productGrid h3 {
   background: #2b2f26;
@@ -91,23 +91,27 @@ h1 {
   font-weight: 300;
   float: left;
   position: relative;
-  z-index: 50;
+  z-index: 5;
   margin-top: -60px;
 }
 .flex1 {
   flex: 1;
-  /*flex-basis: 20%;*/
+  flex-basis: 19%;
 }
 .flex2 {
   flex: 2;
-  /*flex-basis: 40%;*/
+  flex-basis: 39%;
 }
 .flex3 {
   flex: 3;
-  /*flex-basis: 60%;*/
+  flex-basis: 59%;
+}
+.short {
+  height: 250px;
 }
 .productGrid img {
   width: 100%;
+  height: 100%;
 }
 
 /*
