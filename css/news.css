@@ -58,5 +58,9 @@
 .newsFormSubmit:hover {
   background-color: #967343;
   color: white;
-  transition: color 0.2s linear;
+
+}
+.newsFormSubmit:active {
+  background: #CD5D67;
+  color: white;
 }
