@@ -212,3 +212,54 @@ th {
 table tr:nth-child(even) {
   background-color: #F2EADC;
 }
+
+/*
+
+  Newsletter Page
+
+*/
+#newsWindow {
+  background: url('./images/background-2.jpg') center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+#newsForm {
+  flex-basis: 45%;
+  background-color: white;
+  padding: 40px;
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#newsForm h4 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2em;
+}
+#newsForm p {
+  font-size: 1.15em;
+  margin: 30px 0 20px;
+}
+#newsForm input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.15em;
+  font-weight: 300;
+  border: 0;
+}
+#newsForm input[type=text], #newsForm input[type=email] {
+  width: 100%;
+  padding: 10px 0 5px;
+  margin: 20px 0;
+  color: #666;
+  border-bottom: 2px solid #968772;
+}
+#newsFormSubmit {
+  text-align: center;
+  margin: 10px auto 0;
+  padding: 15px 30px;
+  background-color: #968772;
+  color: #f2f1e8;
+}
