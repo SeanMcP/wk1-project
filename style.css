@@ -10,20 +10,23 @@
 body {
   font-family: 'Merriweather', serif;
   background: #F2F1E8;
+  color: #131511;
 }
 a {
-  color: #ADA6A3;
+  color: #968772;
 }
 a:hover, a:visited {
-  color: #333D39;
+  color: #967343;
 }
 #siteHeader {
   width: 100%;
+  /*margin-top: -40px; /* FIXME: places the header bar flush with the top of the screen */*/
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: flex-start;
   align-items: center;
   background: white;
+  position: fixed;
 }
 #headLogo {
   height: 45px;
@@ -41,10 +44,16 @@ a:hover, a:visited {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
-  color: #333D39;
+  color: #2B2F26;
 }
-#siteHeader nav a:hover, #siteHeader nav a:visited {
-  color: #ADA6A3;
+#siteHeader nav a:hover {
+  color: #CD5D67;
+}
+#siteHeader nav a:active {
+  color: #968772;
+}
+#siteHeader .current {
+  color: #968772;
 }
 
 /*
@@ -53,7 +62,8 @@ a:hover, a:visited {
 
 */
 #logoSplash {
-  margin: 40px auto;
+  margin: 0 auto;
+  padding: 120px 0 60px;
   text-align: center;
   color: #131511;
 }
@@ -223,6 +233,7 @@ table tr:nth-child(even) {
   background-size: cover;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100%;
 }
 #newsForm {
@@ -256,10 +267,17 @@ table tr:nth-child(even) {
   color: #666;
   border-bottom: 2px solid #968772;
 }
+#newsForm input[type=text]:focus, #newsForm input[type=email]:focus {
+  border-bottom: 2px solid #967343;
+}
 #newsFormSubmit {
   text-align: center;
   margin: 10px auto 0;
   padding: 15px 30px;
   background-color: #968772;
-  color: #f2f1e8;
+  color: #F2F1E8;
+}
+#newsFormSubmit:hover {
+  background-color: #967343;
+  color: white;
 }
