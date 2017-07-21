@@ -14,7 +14,6 @@ a:hover, a:visited {
 }
 #siteHeader {
   width: 100%;
-  /*margin-top: -40px; /* FIXME: places the header bar flush with the top of the screen */*/
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: flex-start;
@@ -39,12 +38,15 @@ a:hover, a:visited {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   color: #2B2F26;
+  transition: color 0.2s linear;
 }
 #siteHeader nav a:hover {
   color: #CD5D67;
+  transition: color 0.2s linear;
 }
 #siteHeader nav a:active {
   color: #968772;
+  transition: color 0.2s linear;
 }
 #siteHeader .current {
   color: #968772;

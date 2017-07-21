@@ -41,18 +41,22 @@
   margin: 20px 0;
   color: #666;
   border-bottom: 2px solid #968772;
+  transition: color 0.2s linear;
 }
 #newsForm input[type=text]:focus, #newsForm input[type=email]:focus {
   border-bottom: 2px solid #967343;
+  transition: color 0.2s linear;
 }
-#newsFormSubmit {
+.newsFormSubmit {
   text-align: center;
   margin: 10px auto 0;
   padding: 15px 30px;
   background-color: #968772;
   color: #F2F1E8;
+  transition: color 0.2s linear;
 }
-#newsFormSubmit:hover {
+.newsFormSubmit:hover {
   background-color: #967343;
   color: white;
+  transition: color 0.2s linear;
 }
