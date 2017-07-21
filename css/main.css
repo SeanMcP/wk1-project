@@ -38,15 +38,13 @@ a:hover, a:visited {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   color: #2B2F26;
-  transition: color 0.2s linear;
+  transition: all 0.5s linear;
 }
 #siteHeader nav a:hover {
   color: #CD5D67;
-  transition: color 0.2s linear;
 }
 #siteHeader nav a:active {
   color: #968772;
-  transition: color 0.2s linear;
 }
 #siteHeader .current {
   color: #968772;

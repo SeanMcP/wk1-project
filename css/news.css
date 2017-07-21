@@ -45,7 +45,7 @@
 }
 #newsForm input[type=text]:focus, #newsForm input[type=email]:focus {
   border-bottom: 2px solid #967343;
-  transition: color 0.2s linear;
+  transition: all 0.5s linear;
 }
 .newsFormSubmit {
   text-align: center;
@@ -53,7 +53,7 @@
   padding: 15px 30px;
   background-color: #968772;
   color: #F2F1E8;
-  transition: color 0.2s linear;
+  transition: all 0.5s linear;
 }
 .newsFormSubmit:hover {
   background-color: #967343;
